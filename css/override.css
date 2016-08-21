@@ -1,0 +1,105 @@
+/* -------------------------- Phone default -------------------------- */
+header {
+	background-color: #f4f4f4;
+	padding: 1em 0 .5em 0;	
+}
+
+div.logo {
+	height: 68px;
+	width: 104px;
+	margin-top: .5em;
+	background-repeat:no-repeat;
+	float: left;	
+}
+
+header a.tel {
+	font-size:1.3em;
+	display:block;
+	float: right;
+	margin-right:  1%;
+	color: #c53831!important; 
+	text-decoration:none;
+	text-align:right;
+	z-index: 999;
+}
+header ul.social {
+	margin: .5em 0 0 0;
+	float: right;
+	clear: right;	
+}
+header ul.social li {
+	float: left;
+	list-style-type:none;	
+}
+header ul.social li a {
+	width: 2.4em;
+	height: 2.4em;
+	display: block;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-size:auto 90%;
+}
+header ul.social li.twitter a {background-image: url(../images/social_twitter.png);}
+header ul.social li.facebook a {background-image: url(../images/social_face.png);}
+header ul.social li.plus a {background-image: url(../images/social_plus.png);}
+header ul.social li.youtube a {background-image: url(../images/social_youtube.png);}
+
+h1 {
+	color: #c53831;
+	font-weight: 300;
+}
+
+p {
+	font-size: 1.2em;	
+}
+footer {
+	text-align: center;
+	background-color: #6f7274;
+	color: #f4f4f4;
+	padding: .5em 0;
+}
+footer a  {color: #f4f4f4; text-decoration:underline;}
+footer a:hover {color: #000;}
+
+figure.left {margin: .3em 1em 0 0;}
+
+.sticky{
+    width:100%;
+}
+
+/* -------------------------- Tablet CSS -------------------------- */
+
+@media screen and (min-width: 39.9375em){
+
+	header{padding: 2em 0 1em 0;}
+	div.logo {
+		height: 102px;
+		width: 157px;	
+	}
+	header a.tel {
+		font-size:1.6em;
+	}
+	header ul.social {margin-top: 1em;}
+	header ul.social li a {
+		width: 3.1em;
+		height: 3.1em;
+		background-size:auto auto;
+	}
+	
+
+}
+
+
+
+
+/* -------------------------- Desktop CSS -------------------------- */
+
+
+@media screen and (min-width: 63.9375em) {
+
+div.logo{
+    width: 207px;
+    height:135px;
+}
+    
+} 
